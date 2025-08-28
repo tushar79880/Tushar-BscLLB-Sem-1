@@ -1,1 +1,1 @@
-# Tushar-BscLLB-Sem-1-2025
+# Tushar-BscLLB-Sem-1(2025-26)
