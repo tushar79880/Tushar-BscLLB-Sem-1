@@ -1,0 +1,18 @@
+/*
+Programe: Write N times your names
+Author: Tushar , B.Sc.LL.B - 1 Semester
+Dated: 17/09/2025
+*/
+#include <stdio.h>
+
+void main()
+{
+    int counter , n;
+    printf("Enter the value of n");
+    scanf("%d",&n);
+    
+    for(counter=1 ; counter<=n ; counter++)
+    printf("Tushar\n");
+
+    return 0;
+}
