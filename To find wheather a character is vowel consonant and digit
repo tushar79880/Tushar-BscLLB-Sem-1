@@ -1,1 +1,41 @@
+/*
+Programe - To find wheather a character is vowel consonant and digit
+Author - Tushar , B.Sc.LL.B - 1st Semester
+Dated on - 24/09/2006 , 3.30PM
+*/
+#include <stdio.h>
+#include <ctype.h>
 
+int main()
+{
+    char choice;
+    printf("Enter a character:");
+    scanf(" %c",&choice);
+    
+    switch(choice)
+    {
+        case 'a': printf("It is Vowel.\n");
+                  break;
+        case 'e': printf("It is Vowel.\n");
+                  break;
+        case 'i': printf("It is Vowel.\n");
+                  break;
+        case 'o': printf("It is Vowel.\n");
+                  break;
+        case 'u': printf("It is Vowel.\n");
+                  break;
+        default:
+        if(isdigit(choice))
+        {
+            printf("It is a digit.\n");
+        }
+        else if(isalpha(choice))
+        {
+            printf("It is consonant");
+        }
+        else    
+        {
+            printf("It is neither vowel , consonant and digit");
+        }
+    }
+}
