@@ -1,0 +1,19 @@
+/*
+Programe: To find factorial of n number
+Author: Tushar , B.Sc.LL.B - 1 Semester
+Dated: 25/09/2025
+*/
+#include <stdio.h>
+
+void main()
+{
+  int i, f = 1, n;
+
+  printf("Enter the number : ");
+  scanf("%d", &n);
+
+  for(i = 1; i <= n; i++)
+      f = f * i;
+
+  printf("The Factorial of %d is: %d\n", n, f);
+}
