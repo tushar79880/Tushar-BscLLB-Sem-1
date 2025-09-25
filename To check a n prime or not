@@ -1,0 +1,28 @@
+/*
+Programe: To check a n prime or not
+Author: Tushar , B.Sc.LL.B - 1 Semester
+Dated: 25/09/2025
+*/
+#include<stdio.h>
+void main ()
+{
+    int i , n , isPrime=1;
+    printf("Enter the value of n");
+    scanf(" %d", &n);
+    if (n<=1)
+    {
+        printf("n is not prime no");
+    }
+    for(i=2 ; i<=n/2 ; i++)
+    {
+        if(n%i==0)
+        {
+            isPrime=0;
+            break;
+        }
+    }
+    if(isPrime)
+        printf("n is a prime no.\n",n);
+    else
+        printf("n is not prime no.\n",n);
+}
