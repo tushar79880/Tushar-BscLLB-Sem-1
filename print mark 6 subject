@@ -1,0 +1,29 @@
+/*
+Program - Goto Statement
+Author - Tushar , B.Sc.LL.B
+Date - 15-10-2025
+*/
+#include <stdio.h>
+
+int main()
+{
+    float marks[6];
+    int i;
+    float sum = 0;  // Sum should be float, not int
+
+    for (i = 0; i < 6; i++) 
+    {
+        printf("Enter the mark for subject %d: ", i + 1);
+        scanf("%f", &marks[i]);
+    }
+
+    for (i = 0; i < 6; i++) 
+    {
+        sum = sum + marks[i];
+        printf("Marks of subject %d: %.2f\n", i + 1, marks[i]);
+    }
+
+    printf("Total Sum = %.2f\n", sum);
+
+    return 0;
+}
