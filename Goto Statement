@@ -1,0 +1,18 @@
+/*
+Program - Goto Statement
+Author - Tushar , B.Sc.LL.B
+Date - 15-10-2025
+*/
+#include<stdio.h>
+int main ()
+{
+    int n;
+    postive: printf("Enter the value of n:");
+             scanf("%d",&n);
+             if (n>0)
+                goto postive;
+             else
+                goto negative;
+    negative: printf("Exit");
+
+}
